@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tonis Pizza</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo_tonis.css">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+	<meta name="viemport" content="width=device-width, user-scalable=no, inicial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+</head>
+
+
+	<body>  
+
+		 <header>
+         <a href="index.html">
+         <img id="header_logo" src="img/logo_tonis.png" width="200 " height="150"   alt="Logotipo Tonis Pizza" id="logo">
+         </a>
+
+         <nav>
+             
+            <ul class="menus">
+                
+                      <li> <a href="index.html">Inicio</a></li>
+                      <li><a href="productos.html">Productos</a></li>
+                      <li><a href="combos.html">Combos</a></li>
+                      <li><a href="bebidas.html">Bebidas</a></li>
+                      <li><a href="contacto.html">Contacto</a></li>
+                      <li><a href="nosotros.html">Nosotros</a></li>
+
+            </ul>
+
+
+
+         </nav>
+     </header>
+  
+
+    <div class="contact_form">
+
+        <div class="formulario">            
+      <h1>DUDAS Y SUGERENCIAS</h1>
+                <h3>Escríbenos y Toni’s Pizza en breve se pondra en contacto contigo</h3>
+
+
+                    <form class="form" action="php/agregar.php" method="post">            
+
+                        
+                                <p>
+                                    <label for="nombre" class="colocar_nombre">Nombre
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                                </p>
+                            
+                                <p>
+                                    <label for="email" class="colocar_correo">Correo
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                        <input type="correo" name="introducir_correo" id="email" required="obligatorio" placeholder="Escribe tu correo">
+                                </p>
+                        
+                                <p>
+                                    <label for="telefone" class="colocar_telefono">Teléfono
+                                    </label>
+                                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                                </p>        
+                            
+                                <p>
+                                    <label for="website" class="colocar_direccion">Dirreccion
+                                    </label>
+                                        <input type="text" name="introducir_direccion" id="direccion" placeholder="Escribe tu Dirreccion">
+                                </p>        
+                                   
+                            
+                                <p>
+                                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                                        <span class="obligatorio">*</span>
+                                    </label>                     
+                                      <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>                                    
+                            
+                                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                                <p class="aviso">
+                                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                                </p>                    
+                        
+                    </form>
+        </div>  
+    </div>
+   <footer class="site-footer">
+
+		<div class="ubicacion">
+
+			<center><h2>Encuentranos en</h2></center>
+
+		    <ul class="direccion">
+            
+            <center>
+			<p>Av. Camelinas, Nueva Jacarandas #5050 Morelia, Michoacán</p>
+			<p>Av Francisco I. Madero Ote 73, Centro histórico de Morelia,Morelia, Mich</p>
+			</center>
+			<ul>
+
+		<div>
+
+        <div class="redes">
+
+	
+	   <h2>Siguenos en nuestras redes sociales<h2>
+
+	    <ul class="sociales">
+		<li><a href="https://www.facebook.com/"><img src="img/facebook.png" width="45" height="45"></a></li>
+		<li><a href="https://www.twitter.com/"><img src="img/twitter.png" width="45" height="45"></a></li>
+		<li><a href="https://www.instagram.com/"><img src="img/insta.png" width="45" height="45"></a></li>
+
+	</ul>
+</div>
+
+	   <div class="contnedor-footer">
+	       <p> 2020 Ⓒ Toni’s  Pizza Todos los derechos reservados. Términos y condiciones &copy; </p>
+       </div>
+    </footer>
+
+</body>
+</html>
